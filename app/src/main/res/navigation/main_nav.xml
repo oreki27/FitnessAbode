@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/guestFront3">
 
+
+    <fragment
+        android:id="@+id/guestFront3"
+        android:name="com.example.fitness_abode.guest.GuestFront"
+        android:label="fragment_guest_front"
+        tools:layout="@layout/fragment_guest_front" >
+        <action
+            android:id="@+id/action_guestFront3_to_gymListGuest"
+            app:destination="@id/gymListGuest" />
+    </fragment>
+    <fragment
+        android:id="@+id/gymListGuest"
+        android:name="com.example.fitness_abode.guest.GymListGuest"
+        android:label="GymListGuest" />
 </navigation>

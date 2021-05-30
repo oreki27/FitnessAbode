@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guest.GymListGuest">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/bicepsGymGuest"
+                android:layout_width="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/tricepsGymGuest"
+                android:text="Biceps" />
+
+            <TextView
+                android:id="@+id/tricepsGymGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintTop_toBottomOf="@+id/bicepsGymGuest"
+                app:layout_constraintBottom_toTopOf="@+id/chestGymGuest"
+                android:text="Triceps" />
+            <TextView
+                android:id="@+id/chestGymGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintTop_toBottomOf="@+id/tricepsGymGuest"
+                app:layout_constraintBottom_toTopOf="@+id/backGymGuest"
+                android:text="Chest" />
+            <TextView
+                android:id="@+id/backGymGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/chestGymGuest"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintBottom_toTopOf="@+id/shouldersGymGuest"
+                android:text="Back" />
+            <TextView
+                android:id="@+id/shouldersGymGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/backGymGuest"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintBottom_toTopOf="@+id/legsGymGuest"
+                android:text="Shoulders" />
+
+            <TextView
+                android:id="@+id/legsGymGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintTop_toBottomOf="@+id/shouldersGymGuest"
+                app:layout_constraintBottom_toTopOf="@+id/absGymGuest"
+                android:text="Legs" />
+
+            <TextView
+                android:id="@+id/absGymGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/legsGymGuest"
+                app:layout_constraintBottom_toTopOf="@+id/cardioGymGuest"
+                tools:ignore="MissingConstraints"
+                android:text="Abs" />
+
+            <TextView
+                android:id="@+id/cardioGymGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/absGymGuest"
+                android:text="Cardio"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "508156552315",
+    "project_id": "fitnessabode-16fbf",
+    "storage_bucket": "fitnessabode-16fbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508156552315:android:0b67acf69a270c8e63eede",
+        "android_client_info": {
+          "package_name": "com.example.fitness_abode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508156552315-6gfjdgou7l0n8akfn6aalr1r5n4gv4e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHxF8nHCof5qSanx4H4OotcWamr8s23q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508156552315-6gfjdgou7l0n8akfn6aalr1r5n4gv4e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

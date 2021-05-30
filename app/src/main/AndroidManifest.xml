@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fitness_abode">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +12,8 @@
         android:roundIcon="@mipmap/logo_splash"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".LoginScreen.RegisterActivity"></activity>
+        <activity android:name=".guest.GuestMainActivity"></activity>
+        <activity android:name=".LoginScreen.RegisterActivity" />
         <activity android:name=".LoginScreen.LoginActivity" />
         <activity
             android:name=".splash.SplashScreen"
