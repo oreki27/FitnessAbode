@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.NavHostController
+import androidx.navigation.Navigation
 import com.example.fitness_abode.R
 import com.example.fitness_abode.databinding.FragmentGuestFrontBinding
 
@@ -19,8 +21,9 @@ class GuestFront : Fragment() {
             inflater, R.layout.fragment_guest_front, container, false)
         val view : View = binding.root
 
-        binding.gymGuest.setOnClickListener {
 
+        binding.gymGuesButton.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_guestFront3_to_gymListGuest)
         }
 
         binding.homeGuest.setOnClickListener {

@@ -19,7 +19,31 @@ class GymListGuest : Fragment() {
             inflater, R.layout.fragment_gym_list_guest, container, false)
         val view : View = binding.root
 
+        binding.bicepsGymGuest.setOnClickListener {
 
+        }
+
+        binding.tricepsGymGuest.setOnClickListener {
+
+        }
+        binding.chestGymGuest.setOnClickListener {
+
+        }
+        binding.backGymGuest.setOnClickListener {
+
+        }
+        binding.legsGymGuest.setOnClickListener {
+
+        }
+        binding.absGymGuest.setOnClickListener {
+
+        }
+        binding.shouldersGymGuest.setOnClickListener {
+
+        }
+        binding.cardioGymGuest.setOnClickListener {
+
+        }
 
         return view
     }

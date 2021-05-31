@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
-        tools:context=".guest.GymListGuest"
+        tools:context=".guest.HomeListGuest"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -19,7 +19,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/bicepsGymGuest"
+                android:id="@+id/bicepsHomeGuest"
                 android:layout_width="wrap_content"
                 tools:ignore="MissingConstraints"
                 android:layout_height="wrap_content"
@@ -28,86 +28,86 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="80dp"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/tricepsGymGuest"
+                app:layout_constraintBottom_toTopOf="@+id/tricepsHomeGuest"
                 android:text="Biceps" />
 
             <Button
-                android:id="@+id/tricepsGymGuest"
+                android:id="@+id/tricepsHomeGuest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/ripple_effect_raiser"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:background="@drawable/ripple_effect_raiser"
                 tools:ignore="MissingConstraints"
-                app:layout_constraintTop_toBottomOf="@+id/bicepsGymGuest"
-                app:layout_constraintBottom_toTopOf="@+id/chestGymGuest"
+                app:layout_constraintTop_toBottomOf="@+id/bicepsHomeGuest"
+                app:layout_constraintBottom_toTopOf="@+id/chestHomeGuest"
                 android:text="Triceps" />
             <Button
-                android:id="@+id/chestGymGuest"
+                android:id="@+id/chestHomeGuest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/ripple_effect_raiser"
                 tools:ignore="MissingConstraints"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:background="@drawable/ripple_effect_raiser"
-                app:layout_constraintTop_toBottomOf="@+id/tricepsGymGuest"
-                app:layout_constraintBottom_toTopOf="@+id/backGymGuest"
+                app:layout_constraintTop_toBottomOf="@+id/tricepsHomeGuest"
+                app:layout_constraintBottom_toTopOf="@+id/backHomeGuest"
                 android:text="Chest" />
             <Button
-                android:id="@+id/backGymGuest"
+                android:id="@+id/backHomeGuest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 android:background="@drawable/ripple_effect_raiser"
-                app:layout_constraintTop_toBottomOf="@+id/chestGymGuest"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chestHomeGuest"
                 tools:ignore="MissingConstraints"
-                app:layout_constraintBottom_toTopOf="@+id/shouldersGymGuest"
+                app:layout_constraintBottom_toTopOf="@+id/shouldersHomeGuest"
                 android:text="Back" />
             <Button
-                android:id="@+id/shouldersGymGuest"
+                android:id="@+id/shouldersHomeGuest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_effect_raiser"
-                app:layout_constraintTop_toBottomOf="@+id/backGymGuest"
+                app:layout_constraintTop_toBottomOf="@+id/backHomeGuest"
                 tools:ignore="MissingConstraints"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/legsGymGuest"
+                app:layout_constraintBottom_toTopOf="@+id/legsHomeGuest"
                 android:text="Shoulders" />
 
             <Button
-                android:id="@+id/legsGymGuest"
+                android:id="@+id/legsHomeGuest"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:background="@drawable/ripple_effect_raiser"
+                android:layout_height="wrap_content"
                 tools:ignore="MissingConstraints"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/shouldersGymGuest"
-                app:layout_constraintBottom_toTopOf="@+id/absGymGuest"
+                app:layout_constraintTop_toBottomOf="@+id/shouldersHomeGuest"
+                app:layout_constraintBottom_toTopOf="@+id/absHomeGuest"
                 android:text="Legs" />
 
             <Button
-                android:id="@+id/absGymGuest"
+                android:id="@+id/absHomeGuest"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:background="@drawable/ripple_effect_raiser"
+                android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/legsGymGuest"
-                app:layout_constraintBottom_toTopOf="@+id/cardioGymGuest"
+                app:layout_constraintTop_toBottomOf="@+id/legsHomeGuest"
+                app:layout_constraintBottom_toTopOf="@+id/cardioHomeGuest"
                 tools:ignore="MissingConstraints"
                 android:text="Abs" />
 
             <Button
-                android:id="@+id/cardioGymGuest"
+                android:id="@+id/cardioHomeGuest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ripple_effect_raiser"
                 app:layout_constraintStart_toStartOf="parent"
+                android:background="@drawable/ripple_effect_raiser"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/absGymGuest"
+                app:layout_constraintTop_toBottomOf="@+id/absHomeGuest"
                 android:text="Cardio"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginBottom="80dp"

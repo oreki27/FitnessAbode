@@ -10,11 +10,13 @@
     tools:context=".guest.GuestFront">
 
     <Button
-        android:id="@+id/textView4"
+        android:id="@+id/gymGuesButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:paddingHorizontal="30dp"
         android:text="Gym Workouts"
+        android:background="@drawable/ripple_effect_raiser"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3" />
@@ -60,11 +62,13 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/textView5"
         android:layout_width="wrap_content"
+        android:id="@+id/homeGuestButton"
         android:layout_height="wrap_content"
         android:text="Home Workouts"
         android:layout_marginTop="10dp"
+        android:paddingHorizontal="30dp"
+        android:background="@drawable/ripple_effect_raiser"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView4" />
