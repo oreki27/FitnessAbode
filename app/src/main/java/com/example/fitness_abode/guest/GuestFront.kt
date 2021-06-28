@@ -27,7 +27,7 @@ class GuestFront : Fragment() {
         }
 
         binding.homeGuest.setOnClickListener {
-
+            Navigation.findNavController(view).navigate(R.id.action_guestFront3_to_homeListGuest)
         }
 
         return view

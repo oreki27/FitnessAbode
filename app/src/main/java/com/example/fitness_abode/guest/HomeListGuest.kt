@@ -19,7 +19,7 @@ class HomeListGuest : Fragment() {
         val view : View = binding.root
 
         binding.bicepsHomeGuest.setOnClickListener {
-
+        
         }
 
         binding.tricepsHomeGuest.setOnClickListener {

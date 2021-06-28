@@ -14,9 +14,16 @@
         <action
             android:id="@+id/action_guestFront3_to_gymListGuest"
             app:destination="@id/gymListGuest" />
+        <action
+            android:id="@+id/action_guestFront3_to_homeListGuest"
+            app:destination="@id/homeListGuest" />
     </fragment>
     <fragment
         android:id="@+id/gymListGuest"
         android:name="com.example.fitness_abode.guest.GymListGuest"
         android:label="GymListGuest" />
+    <fragment
+        android:id="@+id/homeListGuest"
+        android:name="com.example.fitness_abode.guest.HomeListGuest"
+        android:label="HomeListGuest" />
 </navigation>

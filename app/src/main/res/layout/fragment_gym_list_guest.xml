@@ -20,7 +20,7 @@
 
             <Button
                 android:id="@+id/bicepsGymGuest"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 tools:ignore="MissingConstraints"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_effect_raiser"
@@ -33,7 +33,7 @@
 
             <Button
                 android:id="@+id/tricepsGymGuest"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
                 android:text="Triceps" />
             <Button
                 android:id="@+id/chestGymGuest"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 tools:ignore="MissingConstraints"
                 app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
                 android:text="Chest" />
             <Button
                 android:id="@+id/backGymGuest"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +66,7 @@
                 android:text="Back" />
             <Button
                 android:id="@+id/shouldersGymGuest"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_effect_raiser"
                 app:layout_constraintTop_toBottomOf="@+id/backGymGuest"
@@ -78,7 +78,7 @@
 
             <Button
                 android:id="@+id/legsGymGuest"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_effect_raiser"
                 tools:ignore="MissingConstraints"
@@ -90,7 +90,7 @@
 
             <Button
                 android:id="@+id/absGymGuest"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_effect_raiser"
                 app:layout_constraintStart_toStartOf="parent"
@@ -102,7 +102,7 @@
 
             <Button
                 android:id="@+id/cardioGymGuest"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_effect_raiser"
                 app:layout_constraintStart_toStartOf="parent"
